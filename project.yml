@@ -12,6 +12,7 @@ settings:
     TARGETED_DEVICE_FAMILY: "1" # iPhone
     ENABLE_PREVIEWS: YES
     CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: 48CSUH83VC
 
 targets:
   Subway:
