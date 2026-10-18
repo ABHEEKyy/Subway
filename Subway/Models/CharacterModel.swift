@@ -1,6 +1,6 @@
 import SwiftUI
 
-public struct CharacterModel: Identifiable, Codable, Equatable {
+public struct CharacterModel: Identifiable, Codable, Equatable, Sendable {
     public let id: String
     public let name: String
     public let title: String

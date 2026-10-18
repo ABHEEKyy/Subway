@@ -1,6 +1,6 @@
 import Foundation
 
-public enum MissionType: String, Codable {
+public enum MissionType: String, Codable, Sendable {
     case coinsInRun
     case scoreInRun
     case dodgeObstacles
@@ -8,7 +8,7 @@ public enum MissionType: String, Codable {
     case totalCoins
 }
 
-public struct Mission: Identifiable, Codable, Equatable {
+public struct Mission: Identifiable, Codable, Equatable, Sendable {
     public let id: String
     public let title: String
     public let description: String

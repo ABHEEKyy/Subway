@@ -1,6 +1,6 @@
 import SwiftUI
 
-public enum PowerUpType: String, CaseIterable, Identifiable, Codable {
+public enum PowerUpType: String, CaseIterable, Identifiable, Codable, Sendable {
     case magnet
     case multiplier2x
     case sneakers

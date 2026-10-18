@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-public enum ObstacleType: String, CaseIterable {
+public enum ObstacleType: String, CaseIterable, Sendable {
     case train
     case hurdleLow
     case barrierHigh
@@ -25,7 +25,7 @@ public enum ObstacleType: String, CaseIterable {
     }
 }
 
-public struct TrackObstacle: Identifiable {
+public struct TrackObstacle: Identifiable, Sendable {
     public let id = UUID()
     public var lane: Int // -1 (Left), 0 (Center), 1 (Right)
     public var z: Double // 1.0 (horizon) down to 0.0 (player camera)
@@ -36,7 +36,7 @@ public struct TrackObstacle: Identifiable {
     public var isMovingTrain: Bool = false
 }
 
-public struct TrackCoin: Identifiable {
+public struct TrackCoin: Identifiable, Sendable {
     public let id = UUID()
     public var lane: Int
     public var z: Double
@@ -44,7 +44,7 @@ public struct TrackCoin: Identifiable {
     public var isCollected: Bool = false
 }
 
-public struct TrackPowerUp: Identifiable {
+public struct TrackPowerUp: Identifiable, Sendable {
     public let id = UUID()
     public var lane: Int
     public var z: Double
