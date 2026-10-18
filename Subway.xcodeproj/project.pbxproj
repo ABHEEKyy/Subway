@@ -31,7 +31,7 @@
 		0369C0F8B641AE45661F926D /* SubwayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayApp.swift; sourceTree = "<group>"; };
 		27140F71E944EC9E8BCDCBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		358FCC5D6564516E46CB2A59 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
-		60D5A7C8354F8A5A03853B45 /* Subway.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Subway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D5A7C8354F8A5A03853B45 /* Subway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Subway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		665023324F934FB4911DC14C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6BF52C834285F1AB9236E487 /* CharacterSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectionView.swift; sourceTree = "<group>"; };
 		716FB4E5A0176BAE455CF9DD /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
@@ -297,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 48CSUH83VC;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Subway/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -376,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 48CSUH83VC;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Subway/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
